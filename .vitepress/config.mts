@@ -31,23 +31,265 @@ export default defineConfig({
                     },
                     {
                         text: 'Configuration file',
-                        link: '/api-reference/configuration-file',
+                        link: '/api-reference/configuration-file/index',
                         items: [
                             {
                                 text: 'addons_path',
                                 link: '/api-reference/configuration-file/addons-path',
                             },
                             {
-                                text: 'admin_passwd',
-                                link: '/api-reference/configuration-file/admin-passwd',
+                                text: 'data_dir',
+                                link: '/api-reference/configuration-file/data-dir',
                             },
+                            {
+                                text: 'pidfile',
+                                link: '/api-reference/configuration-file/pidfile',
+                            },
+
+                            // Database
+                            {
+                                text: 'db_host',
+                                link: '/api-reference/configuration-file/db-host',
+                            },
+                            {
+                                text: 'db_port',
+                                link: '/api-reference/configuration-file/db-port',
+                            },
+                            {
+                                text: 'db_user',
+                                link: '/api-reference/configuration-file/db-user',
+                            },
+                            {
+                                text: 'db_password',
+                                link: '/api-reference/configuration-file/db-password',
+                            },
+                            {
+                                text: 'db_name',
+                                link: '/api-reference/configuration-file/db-name',
+                            },
+                            {
+                                text: 'db_template',
+                                link: '/api-reference/configuration-file/db-template',
+                            },
+                            {
+                                text: 'db_maxconn',
+                                link: '/api-reference/configuration-file/db-maxconn',
+                            },
+                            {
+                                text: 'db_sslmode',
+                                link: '/api-reference/configuration-file/db-sslmode',
+                            },
+                            {
+                                text: 'db_sslcert',
+                                link: '/api-reference/configuration-file/db-sslcert',
+                            },
+                            {
+                                text: 'db_sslkey',
+                                link: '/api-reference/configuration-file/db-sslkey',
+                            },
+                            {
+                                text: 'db_sslrootcert',
+                                link: '/api-reference/configuration-file/db-sslrootcert',
+                            },
+                            {
+                                text: 'db_uri',
+                                link: '/api-reference/configuration-file/db-uri',
+                            },
+                            {
+                                text: 'list_db',
+                                link: '/api-reference/configuration-file/list-db',
+                            },
+                            {
+                                text: 'dbfilter',
+                                link: '/api-reference/configuration-file/dbfilter',
+                            },
+                            {
+                                text: 'dbfilter_host',
+                                link: '/api-reference/configuration-file/dbfilter-host',
+                            },
+                            {
+                                text: 'dbfilter_from_header',
+                                link: '/api-reference/configuration-file/dbfilter-from-header',
+                            },
+                            {
+                                text: 'dbfilter_dbdomain',
+                                link: '/api-reference/configuration-file/dbfilter-dbdomain',
+                            },
+
+                            // Server / HTTP
+                            {
+                                text: 'http_interface',
+                                link: '/api-reference/configuration-file/http-interface',
+                            },
+                            {
+                                text: 'http_port',
+                                link: '/api-reference/configuration-file/http-port',
+                            },
+                            {
+                                text: 'longpolling_port',
+                                link: '/api-reference/configuration-file/longpolling-port',
+                            },
+                            {
+                                text: 'proxy_mode',
+                                link: '/api-reference/configuration-file/proxy-mode',
+                            },
+                            {
+                                text: 'server_wide_modules',
+                                link: '/api-reference/configuration-file/server-wide-modules',
+                            },
+                            {
+                                text: 'auto_reload',
+                                link: '/api-reference/configuration-file/auto-reload',
+                            },
+                            {
+                                text: 'stop_after_init',
+                                link: '/api-reference/configuration-file/stop-after-init',
+                            },
+
+                            // Workers / Limits
+                            {
+                                text: 'workers',
+                                link: '/api-reference/configuration-file/workers',
+                            },
+                            {
+                                text: 'max_cron_threads',
+                                link: '/api-reference/configuration-file/max-cron-threads',
+                            },
+                            {
+                                text: 'limit_request',
+                                link: '/api-reference/configuration-file/limit-request',
+                            },
+                            {
+                                text: 'limit_time_cpu',
+                                link: '/api-reference/configuration-file/limit-time-cpu',
+                            },
+                            {
+                                text: 'limit_time_real',
+                                link: '/api-reference/configuration-file/limit-time-real',
+                            },
+                            {
+                                text: 'limit_time_real_cron',
+                                link: '/api-reference/configuration-file/limit-time-real-cron',
+                            },
+                            {
+                                text: 'limit_memory_soft',
+                                link: '/api-reference/configuration-file/limit-memory-soft',
+                            },
+                            {
+                                text: 'limit_memory_hard',
+                                link: '/api-reference/configuration-file/limit-memory-hard',
+                            },
+
+                            // Logs
+                            {
+                                text: 'logfile',
+                                link: '/api-reference/configuration-file/logfile',
+                            },
+                            {
+                                text: 'log_level',
+                                link: '/api-reference/configuration-file/log-level',
+                            },
+                            {
+                                text: 'log_handler',
+                                link: '/api-reference/configuration-file/log-handler',
+                            },
+                            {
+                                text: 'log_db',
+                                link: '/api-reference/configuration-file/log-db',
+                            },
+                            {
+                                text: 'log_db_level',
+                                link: '/api-reference/configuration-file/log-db-level',
+                            },
+                            {
+                                text: 'log_sql',
+                                link: '/api-reference/configuration-file/log-sql',
+                            },
+                            {
+                                text: 'log_request',
+                                link: '/api-reference/configuration-file/log-request',
+                            },
+                            {
+                                text: 'log_response',
+                                link: '/api-reference/configuration-file/log-response',
+                            },
+                            {
+                                text: 'log_rpc',
+                                link: '/api-reference/configuration-file/log-rpc',
+                            },
+                            {
+                                text: 'syslog',
+                                link: '/api-reference/configuration-file/syslog',
+                            },
+                            {
+                                text: 'logrotate',
+                                link: '/api-reference/configuration-file/logrotate',
+                            },
+
+                            // Localization / CSV
                             {
                                 text: 'csv_internal_sep',
                                 link: '/api-reference/configuration-file/csv-internal-sep',
                             },
                             {
-                                text: 'data_dir',
-                                link: '/api-reference/configuration-file/data-dir',
+                                text: 'lang',
+                                link: '/api-reference/configuration-file/lang',
+                            },
+                            {
+                                text: 'translate_modules',
+                                link: '/api-reference/configuration-file/translate-modules',
+                            },
+                            {
+                                text: 'without_demo',
+                                link: '/api-reference/configuration-file/without-demo',
+                            },
+                            {
+                                text: 'load',
+                                link: '/api-reference/configuration-file/load',
+                            },
+                            {
+                                text: 'init',
+                                link: '/api-reference/configuration-file/init',
+                            },
+                            {
+                                text: 'upgrade',
+                                link: '/api-reference/configuration-file/upgrade',
+                            },
+
+                            // Dev / Test
+                            {
+                                text: 'dev',
+                                link: '/api-reference/configuration-file/dev',
+                            },
+                            {
+                                text: 'test_enable',
+                                link: '/api-reference/configuration-file/test-enable',
+                            },
+                            {
+                                text: 'test_file',
+                                link: '/api-reference/configuration-file/test-file',
+                            },
+                            {
+                                text: 'test_tags',
+                                link: '/api-reference/configuration-file/test-tags',
+                            },
+                            {
+                                text: 'test_commit',
+                                link: '/api-reference/configuration-file/test-commit',
+                            },
+                            {
+                                text: 'test_report_directory',
+                                link: '/api-reference/configuration-file/test-report-directory',
+                            },
+                            {
+                                text: 'test_disable',
+                                link: '/api-reference/configuration-file/test-disable',
+                            },
+
+                            // Security
+                            {
+                                text: 'admin_passwd',
+                                link: '/api-reference/configuration-file/admin-passwd',
                             }
                         ]
                     },
@@ -140,6 +382,78 @@ export default defineConfig({
                             {
                                 text: 'summary',
                                 link: '/api-reference/manifest/summary',
+                            },
+                            {
+                                text: 'version',
+                                link: '/api-reference/manifest/version',
+                            },
+                            {
+                                text: 'category',
+                                link: '/api-reference/manifest/category',
+                            },
+                            {
+                                text: 'sequence',
+                                link: '/api-reference/manifest/sequence',
+                            },
+                            {
+                                text: 'description',
+                                link: '/api-reference/manifest/description',
+                            },
+                            {
+                                text: 'author',
+                                link: '/api-reference/manifest/author',
+                            },
+                            {
+                                text: 'website',
+                                link: '/api-reference/manifest/website',
+                            },
+                            {
+                                text: 'license',
+                                link: '/api-reference/manifest/license',
+                            },
+                            {
+                                text: 'application',
+                                link: '/api-reference/manifest/application',
+                            },
+                            {
+                                text: 'installable',
+                                link: '/api-reference/manifest/installable',
+                            },
+                            {
+                                text: 'auto_install',
+                                link: '/api-reference/manifest/auto-install',
+                            },
+                            {
+                                text: 'depends',
+                                link: '/api-reference/manifest/depends',
+                            },
+                            {
+                                text: 'data',
+                                link: '/api-reference/manifest/data',
+                            },
+                            {
+                                text: 'demo',
+                                link: '/api-reference/manifest/demo',
+                            },
+                            {
+                                text: 'qweb',
+                                link: '/api-reference/manifest/qweb',
+                            },
+                            {
+                                text: 'images',
+                                link: '/api-reference/manifest/images',
+                            },
+                            {
+                                text: 'external_dependencies',
+                                link: '/api-reference/manifest/external-dependencies',
+                            },
+                            {
+                                text: 'maintainers',
+                                link: '/api-reference/manifest/maintainers',
+                            },
+                            {
+                                text: 'contributors',
+                                link: '/api-reference/manifest/contributors',
                             }
                         ]
                     },
@@ -176,6 +490,86 @@ export default defineConfig({
                             {
                                 text: '_auto',
                                 link: '/api-reference/model-parameters/auto',
+                            },
+                            {
+                                text: '_rec_name',
+                                link: '/api-reference/model-parameters/rec-name',
+                            },
+                            {
+                                text: '_order',
+                                link: '/api-reference/model-parameters/order',
+                            },
+                            {
+                                text: '_inherit',
+                                link: '/api-reference/model-parameters/inherit',
+                            },
+                            {
+                                text: '_inherits',
+                                link: '/api-reference/model-parameters/inherits',
+                            },
+                            {
+                                text: '_table',
+                                link: '/api-reference/model-parameters/table',
+                            },
+                            {
+                                text: '_table_query',
+                                link: '/api-reference/model-parameters/table-query',
+                            },
+                            {
+                                text: '_parent_name',
+                                link: '/api-reference/model-parameters/parent-name',
+                            },
+                            {
+                                text: '_parent_store',
+                                link: '/api-reference/model-parameters/parent-store',
+                            },
+                            {
+                                text: '_parent_order',
+                                link: '/api-reference/model-parameters/parent-order',
+                            },
+                            {
+                                text: '_fold_name',
+                                link: '/api-reference/model-parameters/fold-name',
+                            },
+                            {
+                                text: '_log_access',
+                                link: '/api-reference/model-parameters/log-access',
+                            },
+                            {
+                                text: '_abstract',
+                                link: '/api-reference/model-parameters/abstract',
+                            },
+                            {
+                                text: '_transient',
+                                link: '/api-reference/model-parameters/transient',
+                            },
+                            {
+                                text: '_check_company_auto',
+                                link: '/api-reference/model-parameters/check-company-auto',
+                            },
+                            {
+                                text: '_sequence',
+                                link: '/api-reference/model-parameters/sequence',
+                            },
+                            {
+                                text: '_sql_constraints',
+                                link: '/api-reference/model-parameters/sql-constraints',
+                            },
+                            {
+                                text: '_constraints',
+                                link: '/api-reference/model-parameters/constraints',
+                            },
+                            {
+                                text: '_default_order',
+                                link: '/api-reference/model-parameters/default-order',
+                            },
+                            {
+                                text: '_register',
+                                link: '/api-reference/model-parameters/register',
+                            },
+                            {
+                                text: '_custom',
+                                link: '/api-reference/model-parameters/custom',
                             }
                         ]
                     },
@@ -183,6 +577,7 @@ export default defineConfig({
                         text: 'Field types',
                         link: '/api-reference/field-types',
                         items: [
+                            // Basic
                             {
                                 text: 'Char',
                                 link: '/api-reference/field-types/char',
@@ -190,6 +585,82 @@ export default defineConfig({
                             {
                                 text: 'Text',
                                 link: '/api-reference/field-types/text',
+                            },
+                            {
+                                text: 'Integer',
+                                link: '/api-reference/field-types/integer',
+                            },
+                            {
+                                text: 'Float',
+                                link: '/api-reference/field-types/float',
+                            },
+                            {
+                                text: 'Boolean',
+                                link: '/api-reference/field-types/boolean',
+                            },
+
+                            // Date & Time
+                            {
+                                text: 'Date',
+                                link: '/api-reference/field-types/date',
+                            },
+                            {
+                                text: 'Datetime',
+                                link: '/api-reference/field-types/datetime',
+                            },
+                            {
+                                text: 'Time',
+                                link: '/api-reference/field-types/time',
+                            },
+
+                            // Binary / HTML
+                            {
+                                text: 'Binary',
+                                link: '/api-reference/field-types/binary',
+                            },
+                            {
+                                text: 'Html',
+                                link: '/api-reference/field-types/html',
+                            },
+
+                            // Relations
+                            {
+                                text: 'Many2one',
+                                link: '/api-reference/field-types/many2one',
+                            },
+                            {
+                                text: 'One2many',
+                                link: '/api-reference/field-types/one2many',
+                            },
+                            {
+                                text: 'Many2many',
+                                link: '/api-reference/field-types/many2many',
+                            },
+
+                            // Special
+                            {
+                                text: 'Selection',
+                                link: '/api-reference/field-types/selection',
+                            },
+                            {
+                                text: 'Monetary',
+                                link: '/api-reference/field-types/monetary',
+                            },
+                            {
+                                text: 'Reference',
+                                link: '/api-reference/field-types/reference',
+                            },
+                            {
+                                text: 'Serialized',
+                                link: '/api-reference/field-types/serialized',
+                            },
+                            {
+                                text: 'Json',
+                                link: '/api-reference/field-types/json',
+                            },
+                            {
+                                text: 'Properties',
+                                link: '/api-reference/field-types/properties',
                             }
                         ]
                     },
@@ -204,6 +675,118 @@ export default defineConfig({
                             {
                                 text: 'required',
                                 link: '/api-reference/field-parameters/required',
+                            },
+                            {
+                                text: 'readonly',
+                                link: '/api-reference/field-parameters/readonly',
+                            },
+                            {
+                                text: 'index',
+                                link: '/api-reference/field-parameters/index',
+                            },
+                            {
+                                text: 'copy',
+                                link: '/api-reference/field-parameters/copy',
+                            },
+                            {
+                                text: 'default',
+                                link: '/api-reference/field-parameters/default',
+                            },
+                            {
+                                text: 'help',
+                                link: '/api-reference/field-parameters/help',
+                            },
+                            {
+                                text: 'groups',
+                                link: '/api-reference/field-parameters/groups',
+                            },
+                            {
+                                text: 'states',
+                                link: '/api-reference/field-parameters/states',
+                            },
+                            {
+                                text: 'domain',
+                                link: '/api-reference/field-parameters/domain',
+                            },
+                            {
+                                text: 'context',
+                                link: '/api-reference/field-parameters/context',
+                            },
+                            {
+                                text: 'ondelete',
+                                link: '/api-reference/field-parameters/ondelete',
+                            },
+                            {
+                                text: 'relation',
+                                link: '/api-reference/field-parameters/relation',
+                            },
+                            {
+                                text: 'inverse_name',
+                                link: '/api-reference/field-parameters/inverse-name',
+                            },
+                            {
+                                text: 'comodel_name',
+                                link: '/api-reference/field-parameters/comodel-name',
+                            },
+                            {
+                                text: 'related',
+                                link: '/api-reference/field-parameters/related',
+                            },
+                            {
+                                text: 'store',
+                                link: '/api-reference/field-parameters/store',
+                            },
+                            {
+                                text: 'compute',
+                                link: '/api-reference/field-parameters/compute',
+                            },
+                            {
+                                text: 'search',
+                                link: '/api-reference/field-parameters/search',
+                            },
+                            {
+                                text: 'depends',
+                                link: '/api-reference/field-parameters/depends',
+                            },
+                            {
+                                text: 'tracking',
+                                link: '/api-reference/field-parameters/tracking',
+                            },
+                            {
+                                text: 'translate',
+                                link: '/api-reference/field-parameters/translate',
+                            },
+                            {
+                                text: 'sanitize',
+                                link: '/api-reference/field-parameters/sanitize',
+                            },
+                            {
+                                text: 'sanitize_overridable',
+                                link: '/api-reference/field-parameters/sanitize-overridable',
+                            },
+                            {
+                                text: 'selection',
+                                link: '/api-reference/field-parameters/selection',
+                            },
+                            {
+                                text: 'size',
+                                link: '/api-reference/field-parameters/size',
+                            },
+                            {
+                                text: 'digits',
+                                link: '/api-reference/field-parameters/digits',
+                            },
+                            {
+                                text: 'currency_field',
+                                link: '/api-reference/field-parameters/currency-field',
+                            },
+                            {
+                                text: 'company_dependent',
+                                link: '/api-reference/field-parameters/company-dependent',
+                            },
+                            {
+                                text: 'precompute',
+                                link: '/api-reference/field-parameters/precompute',
                             }
                         ]
                     },
@@ -212,12 +795,32 @@ export default defineConfig({
                         link: '/api-reference/decorators',
                         items: [
                             {
+                                text: '@api.model',
+                                link: '/api-reference/decorators/api-model',
+                            },
+                            {
                                 text: '@api.model_create_multi',
                                 link: '/api-reference/decorators/api-model-create-multi',
                             },
                             {
-                                text: '@api.model',
-                                link: '/api-reference/decorators/api-model',
+                                text: '@api.depends',
+                                link: '/api-reference/decorators/api-depends',
+                            },
+                            {
+                                text: '@api.constrains',
+                                link: '/api-reference/decorators/api-constrains',
+                            },
+                            {
+                                text: '@api.onchange',
+                                link: '/api-reference/decorators/api-onchange',
+                            },
+                            {
+                                text: '@api.returns',
+                                link: '/api-reference/decorators/api-returns',
+                            },
+                            {
+                                text: '@api.autovacuum',
+                                link: '/api-reference/decorators/api-autovacuum',
                             }
                         ]
                     },
@@ -225,6 +828,25 @@ export default defineConfig({
                         text: 'ORM methods',
                         link: '/api-reference/orm-methods',
                         items: [
+                            // CRUD
+                            {
+                                text: 'create',
+                                link: '/api-reference/orm-methods/create',
+                            },
+                            {
+                                text: 'write',
+                                link: '/api-reference/orm-methods/write',
+                            },
+                            {
+                                text: 'unlink',
+                                link: '/api-reference/orm-methods/unlink',
+                            },
+                            {
+                                text: 'copy',
+                                link: '/api-reference/orm-methods/copy',
+                            },
+
+                            // Search
                             {
                                 text: 'search',
                                 link: '/api-reference/orm-methods/search',
@@ -232,6 +854,96 @@ export default defineConfig({
                             {
                                 text: 'search_count',
                                 link: '/api-reference/orm-methods/search-count',
+                            },
+                            {
+                                text: 'browse',
+                                link: '/api-reference/orm-methods/browse',
+                            },
+                            {
+                                text: 'exists',
+                                link: '/api-reference/orm-methods/exists',
+                            },
+
+                            // Read
+                            {
+                                text: 'read',
+                                link: '/api-reference/orm-methods/read',
+                            },
+                            {
+                                text: 'read_group',
+                                link: '/api-reference/orm-methods/read-group',
+                            },
+                            {
+                                text: 'name_get',
+                                link: '/api-reference/orm-methods/name-get',
+                            },
+                            {
+                                text: 'name_create',
+                                link: '/api-reference/orm-methods/name-create',
+                            },
+                            {
+                                text: 'name_search',
+                                link: '/api-reference/orm-methods/name-search',
+                            },
+
+                            // Default / Prefetch
+                            {
+                                text: 'default_get',
+                                link: '/api-reference/orm-methods/default-get',
+                            },
+                            {
+                                text: 'ref',
+                                link: '/api-reference/orm-methods/ref',
+                            },
+                            {
+                                text: 'load',
+                                link: '/api-reference/orm-methods/load',
+                            },
+                            {
+                                text: 'export_data',
+                                link: '/api-reference/orm-methods/export-data',
+                            },
+                            {
+                                text: 'import_data',
+                                link: '/api-reference/orm-methods/import-data',
+                            },
+
+                            // Misc
+                            {
+                                text: 'invalidate_cache',
+                                link: '/api-reference/orm-methods/invalidate-cache',
+                            },
+                            {
+                                text: 'flush',
+                                link: '/api-reference/orm-methods/flush',
+                            },
+                            {
+                                text: 'mapped',
+                                link: '/api-reference/orm-methods/mapped',
+                            },
+                            {
+                                text: 'filtered',
+                                link: '/api-reference/orm-methods/filtered',
+                            },
+                            {
+                                text: 'sorted',
+                                link: '/api-reference/orm-methods/sorted',
+                            },
+                            {
+                                text: 'with_context',
+                                link: '/api-reference/orm-methods/with-context',
+                            },
+                            {
+                                text: 'with_env',
+                                link: '/api-reference/orm-methods/with-env',
+                            },
+                            {
+                                text: 'sudo',
+                                link: '/api-reference/orm-methods/sudo',
+                            },
+                            {
+                                text: 'ensure_one',
+                                link: '/api-reference/orm-methods/ensure-one',
                             }
                         ]
                     },
@@ -240,12 +952,40 @@ export default defineConfig({
                         link: '/api-reference/environment-attributes',
                         items: [
                             {
+                                text: 'env',
+                                link: '/api-reference/environment-attributes/env',
+                            },
+                            {
+                                text: 'env.cr',
+                                link: '/api-reference/environment-attributes/env-cr',
+                            },
+                            {
+                                text: 'env.uid',
+                                link: '/api-reference/environment-attributes/env-uid',
+                            },
+                            {
                                 text: 'env.user',
                                 link: '/api-reference/environment-attributes/env-user',
                             },
                             {
+                                text: 'env.company',
+                                link: '/api-reference/environment-attributes/env-company',
+                            },
+                            {
+                                text: 'env.companies',
+                                link: '/api-reference/environment-attributes/env-companies',
+                            },
+                            {
+                                text: 'env.context',
+                                link: '/api-reference/environment-attributes/env-context',
+                            },
+                            {
                                 text: 'env.registry',
                                 link: '/api-reference/environment-attributes/env-registry',
+                            },
+                            {
+                                text: 'env.norecompute',
+                                link: '/api-reference/environment-attributes/env-norecompute',
                             }
                         ]
                     },
@@ -260,6 +1000,195 @@ export default defineConfig({
                             {
                                 text: 'data',
                                 link: '/api-reference/view-tags/data',
+                            },
+                            {
+                                text: 'record',
+                                link: '/api-reference/view-tags/record',
+                            },
+                            {
+                                text: 'field',
+                                link: '/api-reference/view-tags/field',
+                            },
+                            {
+                                text: 'form',
+                                link: '/api-reference/view-tags/form',
+                            },
+                            {
+                                text: 'tree',
+                                link: '/api-reference/view-tags/tree',
+                            },
+                            {
+                                text: 'kanban',
+                                link: '/api-reference/view-tags/kanban',
+                            },
+                            {
+                                text: 'search',
+                                link: '/api-reference/view-tags/search',
+                            },
+                            {
+                                text: 'calendar',
+                                link: '/api-reference/view-tags/calendar',
+                            },
+                            {
+                                text: 'pivot',
+                                link: '/api-reference/view-tags/pivot',
+                            },
+                            {
+                                text: 'graph',
+                                link: '/api-reference/view-tags/graph',
+                            },
+                            {
+                                text: 'gantt',
+                                link: '/api-reference/view-tags/gantt',
+                            },
+                            {
+                                text: 'activity',
+                                link: '/api-reference/view-tags/activity',
+                            },
+                            {
+                                text: 'qweb',
+                                link: '/api-reference/view-tags/qweb',
+                            },
+                            {
+                                text: 'xpath',
+                                link: '/api-reference/view-tags/xpath',
+                            },
+                            {
+                                text: 'menuitem',
+                                link: '/api-reference/view-tags/menuitem',
+                            },
+                            {
+                                text: 'act_window',
+                                link: '/api-reference/view-tags/act-window',
+                            },
+                            {
+                                text: 'act_window_close',
+                                link: '/api-reference/view-tags/act-window-close',
+                            },
+                            {
+                                text: 'report',
+                                link: '/api-reference/view-tags/report',
+                            },
+                            {
+                                text: 'template',
+                                link: '/api-reference/view-tags/template',
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Tag attributes',
+                        link: '/api-reference/tag-attributes',
+                        items: [
+                            // Universal
+                            {
+                                text: 'id',
+                                link: '/api-reference/tag-attributes/id',
+                            },
+                            {
+                                text: 'name',
+                                link: '/api-reference/tag-attributes/name',
+                            },
+                            {
+                                text: 'model',
+                                link: '/api-reference/tag-attributes/model',
+                            },
+                            {
+                                text: 'string',
+                                link: '/api-reference/tag-attributes/string',
+                            },
+                            {
+                                text: 'type',
+                                link: '/api-reference/tag-attributes/type',
+                            },
+                            {
+                                text: 'context',
+                                link: '/api-reference/tag-attributes/context',
+                            },
+                            {
+                                text: 'domain',
+                                link: '/api-reference/tag-attributes/domain',
+                            },
+                            {
+                                text: 'groups',
+                                link: '/api-reference/tag-attributes/groups',
+                            },
+                            {
+                                text: 'invisible',
+                                link: '/api-reference/tag-attributes/invisible',
+                            },
+                            {
+                                text: 'required',
+                                link: '/api-reference/tag-attributes/required',
+                            },
+                            {
+                                text: 'readonly',
+                                link: '/api-reference/tag-attributes/readonly',
+                            },
+                            {
+                                text: 'widget',
+                                link: '/api-reference/tag-attributes/widget',
+                            },
+
+                            // Tree / Form specific
+                            {
+                                text: 'editable',
+                                link: '/api-reference/tag-attributes/editable',
+                            },
+                            {
+                                text: 'create',
+                                link: '/api-reference/tag-attributes/create',
+                            },
+                            {
+                                text: 'delete',
+                                link: '/api-reference/tag-attributes/delete',
+                            },
+                            {
+                                text: 'options',
+                                link: '/api-reference/tag-attributes/options',
+                            },
+                            {
+                                text: 'placeholder',
+                                link: '/api-reference/tag-attributes/placeholder',
+                            },
+                            {
+                                text: 'nolabel',
+                                link: '/api-reference/tag-attributes/nolabel',
+                            },
+                            {
+                                text: 'cols',
+                                link: '/api-reference/tag-attributes/cols',
+                            },
+                            {
+                                text: 'rows',
+                                link: '/api-reference/tag-attributes/rows',
+                            },
+
+                            // Kanban specific
+                            {
+                                text: 'default_group_by',
+                                link: '/api-reference/tag-attributes/default-group-by',
+                            },
+                            {
+                                text: 'priority',
+                                link: '/api-reference/tag-attributes/priority',
+                            },
+
+                            // Action / Menu
+                            {
+                                text: 'target',
+                                link: '/api-reference/tag-attributes/target',
+                            },
+                            {
+                                text: 'view_mode',
+                                link: '/api-reference/tag-attributes/view-mode',
+                            },
+                            {
+                                text: 'view_id',
+                                link: '/api-reference/tag-attributes/view-id',
+                            },
+                            {
+                                text: 'ref',
+                                link: '/api-reference/tag-attributes/ref',
                             }
                         ]
                     },
@@ -269,11 +1198,87 @@ export default defineConfig({
                         items: [
                             {
                                 text: 'float_time',
-                                link: '/api-reference/widgets/float_time',
+                                link: '/api-reference/widgets/float-time',
                             },
                             {
                                 text: 'handle',
                                 link: '/api-reference/widgets/handle',
+                            },
+                            {
+                                text: 'statusbar',
+                                link: '/api-reference/widgets/statusbar',
+                            },
+                            {
+                                text: 'many2many_tags',
+                                link: '/api-reference/widgets/many2many-tags',
+                            },
+                            {
+                                text: 'many2one_avatar',
+                                link: '/api-reference/widgets/many2one-avatar',
+                            },
+                            {
+                                text: 'many2one_avatar_user',
+                                link: '/api-reference/widgets/many2one-avatar-user',
+                            },
+                            {
+                                text: 'binary',
+                                link: '/api-reference/widgets/binary',
+                            },
+                            {
+                                text: 'image',
+                                link: '/api-reference/widgets/image',
+                            },
+                            {
+                                text: 'url',
+                                link: '/api-reference/widgets/url',
+                            },
+                            {
+                                text: 'phone',
+                                link: '/api-reference/widgets/phone',
+                            },
+                            {
+                                text: 'email',
+                                link: '/api-reference/widgets/email',
+                            },
+                            {
+                                text: 'monetary',
+                                link: '/api-reference/widgets/monetary',
+                            },
+                            {
+                                text: 'percentpie',
+                                link: '/api-reference/widgets/percentpie',
+                            },
+                            {
+                                text: 'progressbar',
+                                link: '/api-reference/widgets/progressbar',
+                            },
+                            {
+                                text: 'priority',
+                                link: '/api-reference/widgets/priority',
+                            },
+                            {
+                                text: 'signature',
+                                link: '/api-reference/widgets/signature',
+                            },
+                            {
+                                text: 'boolean_toggle',
+                                link: '/api-reference/widgets/boolean-toggle',
+                            },
+                            {
+                                text: 'radio',
+                                link: '/api-reference/widgets/radio',
+                            },
+                            {
+                                text: 'selection',
+                                link: '/api-reference/widgets/selection',
+                            },
+                            {
+                                text: 'html',
+                                link: '/api-reference/widgets/html',
+                            },
+                            {
+                                text: 'ace',
+                                link: '/api-reference/widgets/ace',
                             }
                         ]
                     }
