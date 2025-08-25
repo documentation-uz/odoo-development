@@ -30,269 +30,82 @@ export default defineConfig({
                         link: '/api-reference/index'
                     },
                     {
-                        text: 'Configuration file',
-                        link: '/api-reference/configuration-file/index',
-                        items: [
-                            {
-                                text: 'addons_path',
-                                link: '/api-reference/configuration-file/addons-path',
-                            },
-                            {
-                                text: 'data_dir',
-                                link: '/api-reference/configuration-file/data-dir',
-                            },
-                            {
-                                text: 'pidfile',
-                                link: '/api-reference/configuration-file/pidfile',
-                            },
-
-                            // Database
-                            {
-                                text: 'db_host',
-                                link: '/api-reference/configuration-file/db-host',
-                            },
-                            {
-                                text: 'db_port',
-                                link: '/api-reference/configuration-file/db-port',
-                            },
-                            {
-                                text: 'db_user',
-                                link: '/api-reference/configuration-file/db-user',
-                            },
-                            {
-                                text: 'db_password',
-                                link: '/api-reference/configuration-file/db-password',
-                            },
-                            {
-                                text: 'db_name',
-                                link: '/api-reference/configuration-file/db-name',
-                            },
-                            {
-                                text: 'db_template',
-                                link: '/api-reference/configuration-file/db-template',
-                            },
-                            {
-                                text: 'db_maxconn',
-                                link: '/api-reference/configuration-file/db-maxconn',
-                            },
-                            {
-                                text: 'db_sslmode',
-                                link: '/api-reference/configuration-file/db-sslmode',
-                            },
-                            {
-                                text: 'db_sslcert',
-                                link: '/api-reference/configuration-file/db-sslcert',
-                            },
-                            {
-                                text: 'db_sslkey',
-                                link: '/api-reference/configuration-file/db-sslkey',
-                            },
-                            {
-                                text: 'db_sslrootcert',
-                                link: '/api-reference/configuration-file/db-sslrootcert',
-                            },
-                            {
-                                text: 'db_uri',
-                                link: '/api-reference/configuration-file/db-uri',
-                            },
-                            {
-                                text: 'list_db',
-                                link: '/api-reference/configuration-file/list-db',
-                            },
-                            {
-                                text: 'dbfilter',
-                                link: '/api-reference/configuration-file/dbfilter',
-                            },
-                            {
-                                text: 'dbfilter_host',
-                                link: '/api-reference/configuration-file/dbfilter-host',
-                            },
-                            {
-                                text: 'dbfilter_from_header',
-                                link: '/api-reference/configuration-file/dbfilter-from-header',
-                            },
-                            {
-                                text: 'dbfilter_dbdomain',
-                                link: '/api-reference/configuration-file/dbfilter-dbdomain',
-                            },
-
-                            // Server / HTTP
-                            {
-                                text: 'http_interface',
-                                link: '/api-reference/configuration-file/http-interface',
-                            },
-                            {
-                                text: 'http_port',
-                                link: '/api-reference/configuration-file/http-port',
-                            },
-                            {
-                                text: 'longpolling_port',
-                                link: '/api-reference/configuration-file/longpolling-port',
-                            },
-                            {
-                                text: 'proxy_mode',
-                                link: '/api-reference/configuration-file/proxy-mode',
-                            },
-                            {
-                                text: 'server_wide_modules',
-                                link: '/api-reference/configuration-file/server-wide-modules',
-                            },
-                            {
-                                text: 'auto_reload',
-                                link: '/api-reference/configuration-file/auto-reload',
-                            },
-                            {
-                                text: 'stop_after_init',
-                                link: '/api-reference/configuration-file/stop-after-init',
-                            },
-
-                            // Workers / Limits
-                            {
-                                text: 'workers',
-                                link: '/api-reference/configuration-file/workers',
-                            },
-                            {
-                                text: 'max_cron_threads',
-                                link: '/api-reference/configuration-file/max-cron-threads',
-                            },
-                            {
-                                text: 'limit_request',
-                                link: '/api-reference/configuration-file/limit-request',
-                            },
-                            {
-                                text: 'limit_time_cpu',
-                                link: '/api-reference/configuration-file/limit-time-cpu',
-                            },
-                            {
-                                text: 'limit_time_real',
-                                link: '/api-reference/configuration-file/limit-time-real',
-                            },
-                            {
-                                text: 'limit_time_real_cron',
-                                link: '/api-reference/configuration-file/limit-time-real-cron',
-                            },
-                            {
-                                text: 'limit_memory_soft',
-                                link: '/api-reference/configuration-file/limit-memory-soft',
-                            },
-                            {
-                                text: 'limit_memory_hard',
-                                link: '/api-reference/configuration-file/limit-memory-hard',
-                            },
-
-                            // Logs
-                            {
-                                text: 'logfile',
-                                link: '/api-reference/configuration-file/logfile',
-                            },
-                            {
-                                text: 'log_level',
-                                link: '/api-reference/configuration-file/log-level',
-                            },
-                            {
-                                text: 'log_handler',
-                                link: '/api-reference/configuration-file/log-handler',
-                            },
-                            {
-                                text: 'log_db',
-                                link: '/api-reference/configuration-file/log-db',
-                            },
-                            {
-                                text: 'log_db_level',
-                                link: '/api-reference/configuration-file/log-db-level',
-                            },
-                            {
-                                text: 'log_sql',
-                                link: '/api-reference/configuration-file/log-sql',
-                            },
-                            {
-                                text: 'log_request',
-                                link: '/api-reference/configuration-file/log-request',
-                            },
-                            {
-                                text: 'log_response',
-                                link: '/api-reference/configuration-file/log-response',
-                            },
-                            {
-                                text: 'log_rpc',
-                                link: '/api-reference/configuration-file/log-rpc',
-                            },
-                            {
-                                text: 'syslog',
-                                link: '/api-reference/configuration-file/syslog',
-                            },
-                            {
-                                text: 'logrotate',
-                                link: '/api-reference/configuration-file/logrotate',
-                            },
-
-                            // Localization / CSV
-                            {
-                                text: 'csv_internal_sep',
-                                link: '/api-reference/configuration-file/csv-internal-sep',
-                            },
-                            {
-                                text: 'lang',
-                                link: '/api-reference/configuration-file/lang',
-                            },
-                            {
-                                text: 'translate_modules',
-                                link: '/api-reference/configuration-file/translate-modules',
-                            },
-                            {
-                                text: 'without_demo',
-                                link: '/api-reference/configuration-file/without-demo',
-                            },
-                            {
-                                text: 'load',
-                                link: '/api-reference/configuration-file/load',
-                            },
-                            {
-                                text: 'init',
-                                link: '/api-reference/configuration-file/init',
-                            },
-                            {
-                                text: 'upgrade',
-                                link: '/api-reference/configuration-file/upgrade',
-                            },
-
-                            // Dev / Test
-                            {
-                                text: 'dev',
-                                link: '/api-reference/configuration-file/dev',
-                            },
-                            {
-                                text: 'test_enable',
-                                link: '/api-reference/configuration-file/test-enable',
-                            },
-                            {
-                                text: 'test_file',
-                                link: '/api-reference/configuration-file/test-file',
-                            },
-                            {
-                                text: 'test_tags',
-                                link: '/api-reference/configuration-file/test-tags',
-                            },
-                            {
-                                text: 'test_commit',
-                                link: '/api-reference/configuration-file/test-commit',
-                            },
-                            {
-                                text: 'test_report_directory',
-                                link: '/api-reference/configuration-file/test-report-directory',
-                            },
-                            {
-                                text: 'test_disable',
-                                link: '/api-reference/configuration-file/test-disable',
-                            },
-
-                            // Security
-                            {
-                                text: 'admin_passwd',
-                                link: '/api-reference/configuration-file/admin-passwd',
-                            }
-                        ]
-                    },
+    "text": "Configuration file",
+    "link": "/api-reference/configuration-file/index",
+    "items": [
+        { "text": "addons_path", "link": "/api-reference/configuration-file/addons-path" },
+        { "text": "admin_passwd", "link": "/api-reference/configuration-file/admin-passwd" },
+        { "text": "csv_internal_sep", "link": "/api-reference/configuration-file/csv-internal-sep" },
+        { "text": "data_dir", "link": "/api-reference/configuration-file/data-dir" },
+        { "text": "db_host", "link": "/api-reference/configuration-file/db-host" },
+        { "text": "db_maxconn", "link": "/api-reference/configuration-file/db-maxconn" },
+        { "text": "db_maxconn_gevent", "link": "/api-reference/configuration-file/db-maxconn-gevent" },
+        { "text": "db_name", "link": "/api-reference/configuration-file/db-name" },
+        { "text": "db_password", "link": "/api-reference/configuration-file/db-password" },
+        { "text": "db_port", "link": "/api-reference/configuration-file/db-port" },
+        { "text": "db_replica_host", "link": "/api-reference/configuration-file/db-replica-host" },
+        { "text": "db_replica_port", "link": "/api-reference/configuration-file/db-replica-port" },
+        { "text": "db_sslmode", "link": "/api-reference/configuration-file/db-sslmode" },
+        { "text": "db_template", "link": "/api-reference/configuration-file/db-template" },
+        { "text": "db_user", "link": "/api-reference/configuration-file/db-user" },
+        { "text": "dbfilter", "link": "/api-reference/configuration-file/dbfilter" },
+        { "text": "email_from", "link": "/api-reference/configuration-file/email-from" },
+        { "text": "from_filter", "link": "/api-reference/configuration-file/from-filter" },
+        { "text": "geoip_city_db", "link": "/api-reference/configuration-file/geoip-city-db" },
+        { "text": "geoip_country_db", "link": "/api-reference/configuration-file/geoip-country-db" },
+        { "text": "gevent_port", "link": "/api-reference/configuration-file/gevent-port" },
+        { "text": "http_enable", "link": "/api-reference/configuration-file/http-enable" },
+        { "text": "http_interface", "link": "/api-reference/configuration-file/http-interface" },
+        { "text": "http_port", "link": "/api-reference/configuration-file/http-port" },
+        { "text": "import_partial", "link": "/api-reference/configuration-file/import-partial" },
+        { "text": "limit_memory_hard", "link": "/api-reference/configuration-file/limit-memory-hard" },
+        { "text": "limit_memory_hard_gevent", "link": "/api-reference/configuration-file/limit-memory-hard-gevent" },
+        { "text": "limit_memory_soft", "link": "/api-reference/configuration-file/limit-memory-soft" },
+        { "text": "limit_memory_soft_gevent", "link": "/api-reference/configuration-file/limit-memory-soft-gevent" },
+        { "text": "limit_request", "link": "/api-reference/configuration-file/limit-request" },
+        { "text": "limit_time_cpu", "link": "/api-reference/configuration-file/limit-time-cpu" },
+        { "text": "limit_time_real", "link": "/api-reference/configuration-file/limit-time-real" },
+        { "text": "limit_time_real_cron", "link": "/api-reference/configuration-file/limit-time-real-cron" },
+        { "text": "limit_time_worker_cron", "link": "/api-reference/configuration-file/limit-time-worker-cron" },
+        { "text": "list_db", "link": "/api-reference/configuration-file/list-db" },
+        { "text": "log_db", "link": "/api-reference/configuration-file/log-db" },
+        { "text": "log_db_level", "link": "/api-reference/configuration-file/log-db-level" },
+        { "text": "log_handler", "link": "/api-reference/configuration-file/log-handler" },
+        { "text": "log_level", "link": "/api-reference/configuration-file/log-level" },
+        { "text": "logfile", "link": "/api-reference/configuration-file/logfile" },
+        { "text": "max_cron_threads", "link": "/api-reference/configuration-file/max-cron-threads" },
+        { "text": "osv_memory_count_limit", "link": "/api-reference/configuration-file/osv-memory-count-limit" },
+        { "text": "pg_path", "link": "/api-reference/configuration-file/pg-path" },
+        { "text": "pidfile", "link": "/api-reference/configuration-file/pidfile" },
+        { "text": "pre_upgrade_scripts", "link": "/api-reference/configuration-file/pre-upgrade-scripts" },
+        { "text": "proxy_mode", "link": "/api-reference/configuration-file/proxy-mode" },
+        { "text": "reportgz", "link": "/api-reference/configuration-file/reportgz" },
+        { "text": "screencasts", "link": "/api-reference/configuration-file/screencasts" },
+        { "text": "screenshots", "link": "/api-reference/configuration-file/screenshots" },
+        { "text": "server_wide_modules", "link": "/api-reference/configuration-file/server-wide-modules" },
+        { "text": "smtp_password", "link": "/api-reference/configuration-file/smtp-password" },
+        { "text": "smtp_port", "link": "/api-reference/configuration-file/smtp-port" },
+        { "text": "smtp_server", "link": "/api-reference/configuration-file/smtp-server" },
+        { "text": "smtp_ssl", "link": "/api-reference/configuration-file/smtp-ssl" },
+        { "text": "smtp_ssl_certificate_filename", "link": "/api-reference/configuration-file/smtp-ssl-certificate-filename" },
+        { "text": "smtp_ssl_private_key_filename", "link": "/api-reference/configuration-file/smtp-ssl-private-key-filename" },
+        { "text": "smtp_user", "link": "/api-reference/configuration-file/smtp-user" },
+        { "text": "syslog", "link": "/api-reference/configuration-file/syslog" },
+        { "text": "test_enable", "link": "/api-reference/configuration-file/test-enable" },
+        { "text": "test_file", "link": "/api-reference/configuration-file/test-file" },
+        { "text": "test_tags", "link": "/api-reference/configuration-file/test-tags" },
+        { "text": "transient_age_limit", "link": "/api-reference/configuration-file/transient-age-limit" },
+        { "text": "translate_modules", "link": "/api-reference/configuration-file/translate-modules" },
+        { "text": "unaccent", "link": "/api-reference/configuration-file/unaccent" },
+        { "text": "upgrade_path", "link": "/api-reference/configuration-file/upgrade-path" },
+        { "text": "websocket_keep_alive_timeout", "link": "/api-reference/configuration-file/websocket-keep-alive-timeout" },
+        { "text": "websocket_rate_limit_burst", "link": "/api-reference/configuration-file/websocket-rate-limit-burst" },
+        { "text": "websocket_rate_limit_delay", "link": "/api-reference/configuration-file/websocket-rate-limit-delay" },
+        { "text": "without_demo", "link": "/api-reference/configuration-file/without-demo" },
+        { "text": "workers", "link": "/api-reference/configuration-file/workers" },
+        { "text": "x_sendfile", "link": "/api-reference/configuration-file/x-sendfile" }
+    ]
+},
                     {
                         text: 'Module structure',
                         link: '/api-reference/module-structure',
