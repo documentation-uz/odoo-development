@@ -15,5 +15,4 @@ Belgilangan field bo'yicha group by qilinganda formaga kirish uchun button chiqa
 </groupby>
 ```
 
-![Edit button](src/static/img/edit-button.png)
-
+![Edit button](./edit-button.png)
