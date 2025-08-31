@@ -4,7 +4,7 @@ Ushbu repositoriya odoo development'ning o'zbek tilidagi dokumentatsiyasi uchun.
 
 Har qanday odoo dasturchisi ushbu dokumentatsiyaga ma'lumot qo'shishga o'z hissasini qo'shishi mumkin.
 
-Rasmiy veb sahifa: https://odoo.documentation.uz/
+Rasmiy veb sahifa: https://odoo-development.documentation.uz/
 
 Github manzil: https://github.com/documentation-uz/odoo-development/
 

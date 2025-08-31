@@ -10,6 +10,9 @@ hero:
     alt: odoo-logo-documentation-uz
   actions:
     - theme: brand
+      text: Quick Start
+      link: /docs/get-started/introduction
+    - theme: alt
       text: Get started
       link: /docs/get-started/introduction
     - theme: alt
