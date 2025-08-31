@@ -1350,201 +1350,184 @@ export default defineConfig({
                         link: '/api-reference/view-tags',
                         items: [
                             {
-                                text: 'odoo',
-                                link: '/api-reference/view-tags/odoo',
+                                text: "activity",
+                                link: "/api-reference/view-tags/activity"
                             },
                             {
-                                text: 'data',
-                                link: '/api-reference/view-tags/data',
+                                text: "attribute",
+                                link: "/api-reference/view-tags/attribute"
                             },
                             {
-                                text: 'record',
-                                link: '/api-reference/view-tags/record',
+                                text: "block",
+                                link: "/api-reference/view-tags/block"
                             },
                             {
-                                text: 'field',
-                                link: '/api-reference/view-tags/field',
+                                text: "body",
+                                link: "/api-reference/view-tags/body"
                             },
                             {
-                                text: 'form',
-                                link: '/api-reference/view-tags/form',
+                                text: "button",
+                                link: "/api-reference/view-tags/button"
                             },
                             {
-                                text: 'tree',
-                                link: '/api-reference/view-tags/tree',
+                                text: "calendar",
+                                link: "/api-reference/view-tags/calendar"
                             },
                             {
-                                text: 'kanban',
-                                link: '/api-reference/view-tags/kanban',
+                                text: "chatter",
+                                link: "/api-reference/view-tags/chatter"
                             },
                             {
-                                text: 'search',
-                                link: '/api-reference/view-tags/search',
+                                text: "control",
+                                link: "/api-reference/view-tags/control"
                             },
                             {
-                                text: 'calendar',
-                                link: '/api-reference/view-tags/calendar',
+                                text: "create",
+                                link: "/api-reference/view-tags/create"
                             },
                             {
-                                text: 'pivot',
-                                link: '/api-reference/view-tags/pivot',
+                                text: "data",
+                                link: "/api-reference/view-tags/data"
                             },
                             {
-                                text: 'graph',
-                                link: '/api-reference/view-tags/graph',
+                                text: "field",
+                                link: "/api-reference/view-tags/field"
                             },
                             {
-                                text: 'gantt',
-                                link: '/api-reference/view-tags/gantt',
+                                text: "filter",
+                                link: "/api-reference/view-tags/filter"
                             },
                             {
-                                text: 'activity',
-                                link: '/api-reference/view-tags/activity',
+                                text: "footer",
+                                link: "/api-reference/view-tags/footer"
                             },
                             {
-                                text: 'qweb',
-                                link: '/api-reference/view-tags/qweb',
+                                text: "form",
+                                link: "/api-reference/view-tags/form"
                             },
                             {
-                                text: 'xpath',
-                                link: '/api-reference/view-tags/xpath',
+                                text: "function",
+                                link: "/api-reference/view-tags/function"
                             },
                             {
-                                text: 'menuitem',
-                                link: '/api-reference/view-tags/menuitem',
+                                text: "graph",
+                                link: "/api-reference/view-tags/graph"
                             },
                             {
-                                text: 'act_window',
-                                link: '/api-reference/view-tags/act-window',
+                                text: "group",
+                                link: "/api-reference/view-tags/group"
                             },
                             {
-                                text: 'act_window_close',
-                                link: '/api-reference/view-tags/act-window-close',
+                                text: "groupby",
+                                link: "/api-reference/view-tags/groupby"
                             },
                             {
-                                text: 'report',
-                                link: '/api-reference/view-tags/report',
+                                text: "head",
+                                link: "/api-reference/view-tags/head"
                             },
                             {
-                                text: 'template',
-                                link: '/api-reference/view-tags/template',
-                            }
-                        ]
-                    },
-                    {
-                        text: 'Tag attributes',
-                        link: '/api-reference/tag-attributes',
-                        items: [
-                            // Universal
-                            {
-                                text: 'id',
-                                link: '/api-reference/tag-attributes/id',
+                                text: "header",
+                                link: "/api-reference/view-tags/header"
                             },
                             {
-                                text: 'name',
-                                link: '/api-reference/tag-attributes/name',
+                                text: "hierarchy",
+                                link: "/api-reference/view-tags/hierarchy"
                             },
                             {
-                                text: 'model',
-                                link: '/api-reference/tag-attributes/model',
+                                text: "img",
+                                link: "/api-reference/view-tags/img"
                             },
                             {
-                                text: 'string',
-                                link: '/api-reference/tag-attributes/string',
+                                text: "kanban",
+                                link: "/api-reference/view-tags/kanban"
                             },
                             {
-                                text: 'type',
-                                link: '/api-reference/tag-attributes/type',
+                                text: "label",
+                                link: "/api-reference/view-tags/label"
                             },
                             {
-                                text: 'context',
-                                link: '/api-reference/tag-attributes/context',
+                                text: "link",
+                                link: "/api-reference/view-tags/link"
                             },
                             {
-                                text: 'domain',
-                                link: '/api-reference/tag-attributes/domain',
+                                text: "list",
+                                link: "/api-reference/view-tags/list"
                             },
                             {
-                                text: 'groups',
-                                link: '/api-reference/tag-attributes/groups',
+                                text: "menuitem",
+                                link: "/api-reference/view-tags/menuitem"
                             },
                             {
-                                text: 'invisible',
-                                link: '/api-reference/tag-attributes/invisible',
+                                text: "notebook",
+                                link: "/api-reference/view-tags/notebook"
                             },
                             {
-                                text: 'required',
-                                link: '/api-reference/tag-attributes/required',
+                                text: "odoo",
+                                link: "/api-reference/view-tags/odoo"
                             },
                             {
-                                text: 'readonly',
-                                link: '/api-reference/tag-attributes/readonly',
+                                text: "owl-component",
+                                link: "/api-reference/view-tags/owl-component"
                             },
                             {
-                                text: 'widget',
-                                link: '/api-reference/tag-attributes/widget',
-                            },
-
-                            // Tree / Form specific
-                            {
-                                text: 'editable',
-                                link: '/api-reference/tag-attributes/editable',
+                                text: "page",
+                                link: "/api-reference/view-tags/page"
                             },
                             {
-                                text: 'create',
-                                link: '/api-reference/tag-attributes/create',
+                                text: "pivot",
+                                link: "/api-reference/view-tags/pivot"
                             },
                             {
-                                text: 'delete',
-                                link: '/api-reference/tag-attributes/delete',
+                                text: "progressbar",
+                                link: "/api-reference/view-tags/progressbar"
                             },
                             {
-                                text: 'options',
-                                link: '/api-reference/tag-attributes/options',
+                                text: "record",
+                                link: "/api-reference/view-tags/record"
                             },
                             {
-                                text: 'placeholder',
-                                link: '/api-reference/tag-attributes/placeholder',
+                                text: "root",
+                                link: "/api-reference/view-tags/root"
                             },
                             {
-                                text: 'nolabel',
-                                link: '/api-reference/tag-attributes/nolabel',
+                                text: "search",
+                                link: "/api-reference/view-tags/search"
                             },
                             {
-                                text: 'cols',
-                                link: '/api-reference/tag-attributes/cols',
+                                text: "searchpanel",
+                                link: "/api-reference/view-tags/searchpanel"
                             },
                             {
-                                text: 'rows',
-                                link: '/api-reference/tag-attributes/rows',
-                            },
-
-                            // Kanban specific
-                            {
-                                text: 'default_group_by',
-                                link: '/api-reference/tag-attributes/default-group-by',
+                                text: "separator",
+                                link: "/api-reference/view-tags/separator"
                             },
                             {
-                                text: 'priority',
-                                link: '/api-reference/tag-attributes/priority',
-                            },
-
-                            // Action / Menu
-                            {
-                                text: 'target',
-                                link: '/api-reference/tag-attributes/target',
+                                text: "sheet",
+                                link: "/api-reference/view-tags/sheet"
                             },
                             {
-                                text: 'view_mode',
-                                link: '/api-reference/tag-attributes/view-mode',
+                                text: "template",
+                                link: "/api-reference/view-tags/template"
                             },
                             {
-                                text: 'view_id',
-                                link: '/api-reference/tag-attributes/view-id',
+                                text: "templates",
+                                link: "/api-reference/view-tags/templates"
                             },
                             {
-                                text: 'ref',
-                                link: '/api-reference/tag-attributes/ref',
+                                text: "time",
+                                link: "/api-reference/view-tags/time"
+                            },
+                            {
+                                text: "value",
+                                link: "/api-reference/view-tags/value"
+                            },
+                            {
+                                text: "widget",
+                                link: "/api-reference/view-tags/widget"
+                            },
+                            {
+                                text: "xpath",
+                                link: "/api-reference/view-tags/xpath"
                             }
                         ]
                     },
@@ -1553,88 +1536,337 @@ export default defineConfig({
                         link: '/api-reference/widgets',
                         items: [
                             {
-                                text: 'float_time',
-                                link: '/api-reference/widgets/float-time',
+                                text: "CopyClipboardButton",
+                                link: "/api-reference/widgets/copyclipboardbutton"
                             },
                             {
-                                text: 'handle',
-                                link: '/api-reference/widgets/handle',
+                                text: "CopyClipboardChar",
+                                link: "/api-reference/widgets/copyclipboardchar"
                             },
                             {
-                                text: 'statusbar',
-                                link: '/api-reference/widgets/statusbar',
+                                text: "CopyClipboardURL",
+                                link: "/api-reference/widgets/copyclipboardurl"
                             },
                             {
-                                text: 'many2many_tags',
-                                link: '/api-reference/widgets/many2many-tags',
+                                text: "DynamicModelFieldSelectorChar",
+                                link: "/api-reference/widgets/dynamicmodelfieldselectorchar"
                             },
                             {
-                                text: 'many2one_avatar',
-                                link: '/api-reference/widgets/many2one-avatar',
+                                text: "activity_exception",
+                                link: "/api-reference/widgets/activity-exception"
                             },
                             {
-                                text: 'many2one_avatar_user',
-                                link: '/api-reference/widgets/many2one-avatar-user',
+                                text: "attachment_image",
+                                link: "/api-reference/widgets/attachment-image"
                             },
                             {
-                                text: 'binary',
-                                link: '/api-reference/widgets/binary',
+                                text: "badge",
+                                link: "/api-reference/widgets/badge"
                             },
                             {
-                                text: 'image',
-                                link: '/api-reference/widgets/image',
+                                text: "binary",
+                                link: "/api-reference/widgets/binary"
                             },
                             {
-                                text: 'url',
-                                link: '/api-reference/widgets/url',
+                                text: "boolean",
+                                link: "/api-reference/widgets/boolean"
                             },
                             {
-                                text: 'phone',
-                                link: '/api-reference/widgets/phone',
+                                text: "boolean_favorite",
+                                link: "/api-reference/widgets/boolean-favorite"
                             },
                             {
-                                text: 'email',
-                                link: '/api-reference/widgets/email',
+                                text: "boolean_icon",
+                                link: "/api-reference/widgets/boolean-icon"
                             },
                             {
-                                text: 'monetary',
-                                link: '/api-reference/widgets/monetary',
+                                text: "boolean_toggle",
+                                link: "/api-reference/widgets/boolean-toggle"
                             },
                             {
-                                text: 'percentpie',
-                                link: '/api-reference/widgets/percentpie',
+                                text: "char",
+                                link: "/api-reference/widgets/char"
                             },
                             {
-                                text: 'progressbar',
-                                link: '/api-reference/widgets/progressbar',
+                                text: "char_emojis",
+                                link: "/api-reference/widgets/char-emojis"
                             },
                             {
-                                text: 'priority',
-                                link: '/api-reference/widgets/priority',
+                                text: "code",
+                                link: "/api-reference/widgets/code"
                             },
                             {
-                                text: 'signature',
-                                link: '/api-reference/widgets/signature',
+                                text: "color",
+                                link: "/api-reference/widgets/color"
                             },
                             {
-                                text: 'boolean_toggle',
-                                link: '/api-reference/widgets/boolean-toggle',
+                                text: "color_picker",
+                                link: "/api-reference/widgets/color-picker"
                             },
                             {
-                                text: 'radio',
-                                link: '/api-reference/widgets/radio',
+                                text: "contact",
+                                link: "/api-reference/widgets/contact"
                             },
                             {
-                                text: 'selection',
-                                link: '/api-reference/widgets/selection',
+                                text: "dashboard_graph",
+                                link: "/api-reference/widgets/dashboard-graph"
                             },
                             {
-                                text: 'html',
-                                link: '/api-reference/widgets/html',
+                                text: "date",
+                                link: "/api-reference/widgets/date"
                             },
                             {
-                                text: 'ace',
-                                link: '/api-reference/widgets/ace',
+                                text: "daterange",
+                                link: "/api-reference/widgets/daterange"
+                            },
+                            {
+                                text: "datetime",
+                                link: "/api-reference/widgets/datetime"
+                            },
+                            {
+                                text: "domain",
+                                link: "/api-reference/widgets/domain"
+                            },
+                            {
+                                text: "email",
+                                link: "/api-reference/widgets/email"
+                            },
+                            {
+                                text: "filterable_selection",
+                                link: "/api-reference/widgets/filterable-selection"
+                            },
+                            {
+                                text: "float",
+                                link: "/api-reference/widgets/float"
+                            },
+                            {
+                                text: "float_time",
+                                link: "/api-reference/widgets/float-time"
+                            },
+                            {
+                                text: "handle",
+                                link: "/api-reference/widgets/handle"
+                            },
+                            {
+                                text: "html",
+                                link: "/api-reference/widgets/html"
+                            },
+                            {
+                                text: "html_composer_message",
+                                link: "/api-reference/widgets/html-composer-message"
+                            },
+                            {
+                                text: "html_mail",
+                                link: "/api-reference/widgets/html-mail"
+                            },
+                            {
+                                text: "iframe",
+                                link: "/api-reference/widgets/iframe"
+                            },
+                            {
+                                text: "iframe_wrapper",
+                                link: "/api-reference/widgets/iframe-wrapper"
+                            },
+                            {
+                                text: "image",
+                                link: "/api-reference/widgets/image"
+                            },
+                            {
+                                text: "image_url",
+                                link: "/api-reference/widgets/image-url"
+                            },
+                            {
+                                text: "integer",
+                                link: "/api-reference/widgets/integer"
+                            },
+                            {
+                                text: "kanban_activity",
+                                link: "/api-reference/widgets/kanban-activity"
+                            },
+                            {
+                                text: "kanban_color_picker",
+                                link: "/api-reference/widgets/kanban-color-picker"
+                            },
+                            {
+                                text: "label_selection",
+                                link: "/api-reference/widgets/label-selection"
+                            },
+                            {
+                                text: "list_activity",
+                                link: "/api-reference/widgets/list-activity"
+                            },
+
+                            {
+                                text: "mail_attachments",
+                                link: "/api-reference/widgets/mail-attachments"
+                            },
+                            {
+                                text: "mail_composer_attachment_list",
+                                link: "/api-reference/widgets/mail-composer-attachment-list"
+                            },
+                            {
+                                text: "mail_composer_attachment_selector",
+                                link: "/api-reference/widgets/mail-composer-attachment-selector"
+                            },
+                            {
+                                text: "mail_composer_chatgpt",
+                                link: "/api-reference/widgets/mail-composer-chatgpt"
+                            },
+                            {
+                                text: "mail_composer_template_selector",
+                                link: "/api-reference/widgets/mail-composer-template-selector"
+                            },
+                            {
+                                text: "many2many",
+                                link: "/api-reference/widgets/many2many"
+                            },
+                            {
+                                text: "many2many_avatar_user",
+                                link: "/api-reference/widgets/many2many-avatar-user"
+                            },
+                            {
+                                text: "many2many_binary",
+                                link: "/api-reference/widgets/many2many-binary"
+                            },
+                            {
+                                text: "many2many_checkboxes",
+                                link: "/api-reference/widgets/many2many-checkboxes"
+                            },
+                            {
+                                text: "many2many_tags",
+                                link: "/api-reference/widgets/many2many-tags"
+                            },
+                            {
+                                text: "many2many_tags_avatar",
+                                link: "/api-reference/widgets/many2many-tags-avatar"
+                            },
+                            {
+                                text: "many2many_tags_email",
+                                link: "/api-reference/widgets/many2many-tags-email"
+                            },
+                            {
+                                text: "many2one",
+                                link: "/api-reference/widgets/many2one"
+                            },
+                            {
+                                text: "many2one_avatar",
+                                link: "/api-reference/widgets/many2one-avatar"
+                            },
+                            {
+                                text: "many2one_avatar_user",
+                                link: "/api-reference/widgets/many2one-avatar-user"
+                            },
+                            {
+                                text: "many2one_barcode",
+                                link: "/api-reference/widgets/many2one-barcode"
+                            },
+                            {
+                                text: "many2one_reference_integer",
+                                link: "/api-reference/widgets/many2one-reference-integer"
+                            },
+                            {
+                                text: "monetary",
+                                link: "/api-reference/widgets/monetary"
+                            },
+                            {
+                                text: "one2many",
+                                link: "/api-reference/widgets/one2many"
+                            },
+                            {
+                                text: "pdf_viewer",
+                                link: "/api-reference/widgets/pdf-viewer"
+                            },
+                            {
+                                text: "percentpie",
+                                link: "/api-reference/widgets/percentpie"
+                            },
+                            {
+                                text: "percentage",
+                                link: "/api-reference/widgets/percentage"
+                            },
+                            {
+                                text: "phone",
+                                link: "/api-reference/widgets/phone"
+                            },
+                            {
+                                text: "portal_wizard_user_one2many",
+                                link: "/api-reference/widgets/portal-wizard-user-one2many"
+                            },
+                            {
+                                text: "profiling_qweb_view",
+                                link: "/api-reference/widgets/profiling-qweb-view"
+                            },
+                            {
+                                text: "progressbar",
+                                link: "/api-reference/widgets/progressbar"
+                            },
+                            {
+                                text: "properties",
+                                link: "/api-reference/widgets/properties"
+                            },
+                            {
+                                text: "radio",
+                                link: "/api-reference/widgets/radio"
+                            },
+                            {
+                                text: "reference",
+                                link: "/api-reference/widgets/reference"
+                            },
+                            {
+                                text: "remaining_days",
+                                link: "/api-reference/widgets/remaining-days"
+                            },
+                            {
+                                text: "selection",
+                                link: "/api-reference/widgets/selection"
+                            },
+                            {
+                                text: "selection_badge",
+                                link: "/api-reference/widgets/selection-badge"
+                            },
+                            {
+                                text: "state_selection",
+                                link: "/api-reference/widgets/state-selection"
+                            },
+                            {
+                                text: "statinfo",
+                                link: "/api-reference/widgets/statinfo"
+                            },
+                            {
+                                text: "statusbar",
+                                link: "/api-reference/widgets/statusbar"
+                            },
+                            {
+                                text: "statusbar_duration",
+                                link: "/api-reference/widgets/statusbar-duration"
+                            },
+                            {
+                                text: "text",
+                                link: "/api-reference/widgets/text"
+                            },
+                            {
+                                text: "text_emojis",
+                                link: "/api-reference/widgets/text-emojis"
+                            },
+                            {
+                                text: "timezone_mismatch",
+                                link: "/api-reference/widgets/timezone-mismatch"
+                            },
+                            {
+                                text: "todo_done_checkmark",
+                                link: "/api-reference/widgets/todo-done-checkmark"
+                            },
+                            {
+                                text: "tour_start_widget",
+                                link: "/api-reference/widgets/tour-start-widget"
+                            },
+                            {
+                                text: "upgrade_boolean",
+                                link: "/api-reference/widgets/upgrade-boolean"
+                            },
+                            {
+                                text: "url",
+                                link: "/api-reference/widgets/url"
                             }
                         ]
                     }
