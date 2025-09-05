@@ -25,7 +25,7 @@
 admin_passwd = 7QmYpT6g9d2GATpT2Y4rNwqj8vFsZJrP  ; kuchli, uzun tasodifiy satr
 ```
 
-2. Konfiguratsiya fayli ishlatilmagan holatda:
+2. **Konfiguratsiya fayli ishlatilmagan holatda**:
 
 Parol avtomatik ravishda foydalanuvchi katalogidagi `~/.odoorc` faylida saqlanadi.
 
