@@ -41,7 +41,7 @@ Agar `admin_passwd` belgilanmagan bo‘lsa, ayrim Odoo versiyalarida u bo‘sh y
 
 `odoo.conf` fayliga kerakli qiymat qo‘shiladi yoki yangilanadi.
 
-2-usul: Veb-interfeys orqali
+### 2-usul: Veb-interfeys orqali
 
 Server ishga tushirilgach, brauzerda quyidagi manzil ochiladi:
 
