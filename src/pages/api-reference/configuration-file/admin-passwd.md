@@ -1,3 +1,5 @@
+# admin_passwd
+
 ## Master password nima va nima uchun kerak?
 
 `admin_passwd` — bu **Odoo’ning ma’lumotlar bazasi boshqaruv interfeysini** (Database Manager) himoyalovchi “bosh
