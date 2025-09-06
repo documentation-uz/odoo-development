@@ -18,10 +18,27 @@ export default defineConfig({
             },
             nav: [
                 {text: 'Home', link: '/'},
-                {text: 'Tutorials', link: '/tutorials'},
+                {text: 'Quick Start', link: '/quick-start/index'},
+                {text: 'Tutorials', link: '/tutorials/index'},
                 {text: 'API Reference', link: '/api-reference/index'}
             ],
             sidebar: {
+                '/quick-start/': [
+                    {
+                        text: 'Introduction',
+                        link: '/quick-start/index'
+                    }
+                ],
+                '/tutorials/': [
+                    {
+                        text: 'Introduction',
+                        link: '/tutorials/index'
+                    },
+                    {
+                        text: 'Views',
+                        link: '/tutorials/views/index'
+                    }
+                ],
                 '/api-reference/': [
                     {
                         text: 'API Reference',

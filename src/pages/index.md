@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: /docs/get-started/introduction
+      link: /quick-start/index
     - theme: alt
-      text: Get started
-      link: /docs/get-started/introduction
+      text: Tutorials
+      link: /tutorials/index
     - theme: alt
       text: API Reference
-      link: /api-reference
+      link: /api-reference/index
 
 features:
   - icon: 🚀
